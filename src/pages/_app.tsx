@@ -7,11 +7,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       {/* NAV BAR */}
 
-      <ul>
+      {/* <ul>
         <li>
           <Link href="/dashboard">DashBoard</Link>
         </li>
-      </ul>
+      </ul> */}
 
       <Component {...pageProps} />
     </>

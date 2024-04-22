@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 function UserList() {
   const [data, setData] = useState([]);
 
+  console.log(data, "CSR");
+
   useEffect(() => {
     async function fetchData() {
       const url = "https://jsonplaceholder.typicode.com/users";
@@ -31,3 +33,5 @@ function UserList() {
 }
 
 export default UserList;
+
+// THIS IS CLIENT SIDE RENDERING.
